@@ -165,7 +165,19 @@ User Accounts → Credential Manager
 🟢 Click the Windows Credentials tab (not Web Credentials)
 That's where AHK stores tokens when using passwords.ahk. Under the "Generic Credentials" section. 
 
-In Step 5, we will generate a credential for the Home Assistant API.
+In Step 5, we will generate a credential for the Home Assistant API via Autohotkey.
+
+Or you can generate a crdential manually. Just got to Windows Credentials tab, select the "Generic Credential" button.
+
+You’ll see a popup window with these fields. In the "Internet Or Network Address" field enter `AHK_HomeAssistantAPI`   , the "User Name" field can be anything random, "Password" field is the generated Home Assistant long-lived access token.
+```
+Internet Or Network Address: AHK_HomeAssistantAPI
+
+User name: (can be anything, like ahk_user)
+
+Password: your Home Assistant long-lived access token
+```
+The reason that we are using the term AHK_HomeAssistantAPI is because on line 
 
 .
 .
