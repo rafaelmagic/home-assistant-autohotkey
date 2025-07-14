@@ -74,8 +74,8 @@ Just drop it next to your .ahk file.
 
 
 
-
-✅ STEP-BY-STEP INSTALLATION FOR passwords.ahk (🔐 Credential Manager for AHK)
+✅ STEP-BY-STEP INSTALLATION FOR passwords.ahk
+(🔐 Credential Manager for AHK)
 📦 From:
 👉 https://gist.github.com/fattredd/169835fa26972df8029f9dd7b4d3d6d4
 
@@ -145,8 +145,17 @@ Password: your Home Assistant long-lived token
 
 Click OK
 
-💡 Tip:
-If you're using passwords.ahk and press Ctrl+Alt+C in your script, it will automatically store this credential for you.
+
+
+✅ DOWNLOAD Home_Assistant_AutoHotKey.ahk
+
+Place on your Desktop or any folder.
+
+Launch Home_Assistant_AutoHotKey.ahk by double clicking on it
+
+press Ctrl+Alt+C in your script, a pop up window will display
+
+Enter the following below---
 
 key: AHK_HomeAssistantAPI
 
@@ -154,4 +163,10 @@ User name: (anything, e.g. ahk_user)
 
 Password: your Home Assistant long-lived token
 
+Using Notepad open Home_Assistant_AutoHotKey.ahk
 
+On line 84, enter your website in this format:
+
+"https://myhomeassistanturl.com"
+
+SAVE, then reload by double clicking on file.
