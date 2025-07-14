@@ -217,5 +217,22 @@ Ctrl + Alt + Z
 
 If you get an error instead, double-check your URL and token.
 
+✅ Edit the Home_Assistant_AutoHotKey.ahk Hotekys and Entities
+
+🔹 1. open Home_Assistant_AutoHotKey.ahk via Notepad
+
+On line 12
+
+^!q:: HA.Toggle("light.aqara_light_switch")
+
+Change ^!q:: HA.Toggle("switch.MYEntity")
+
+Save and double click
+
+Then press Ctrl + Alt + q, and your light should toggle On or Off.
+
+Change the rest as needed.
+
+
 
 
