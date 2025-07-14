@@ -179,6 +179,8 @@ Password: your Home Assistant long-lived access token
 ```
 The reason that we are using the term AHK_HomeAssistantAPI is because on line 90 in the main script is referencing that name. 
 
+To generate a password, "long-lived access token", in your sidebar of Home Asistant, go to User > Security > Long-lived access tokens > create a token. That is your API password. 
+
 .
 .
 
@@ -214,7 +216,9 @@ User name: (can be anything, like ahk_user)
 
 Password: your Home Assistant long-lived access token
 ```
+The reason that we are using the term AHK_HomeAssistantAPI is because on line 90 in the main script is referencing that name. 
 
+To generate a Password, "long-lived access token", in your sidebar of Home Asistant, go to User > Security > Long-lived access tokens > create a token. That is your API password. 
 
 🖱️ Click the "Add Pass" button.
 
