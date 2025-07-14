@@ -162,21 +162,6 @@ User Accounts → Credential Manager
 🟢 Click the Windows Credentials tab (not Web Credentials)
 That's where AHK stores tokens when using passwords.ahk.
 
-🔹 3. Add or Edit a Credential
-To add a new credential manually:
-
-Click Add a Windows credential
-
-Enter:
-
-Internet or network address: AHK_HomeAssistantAPI
-
-User name: (anything, e.g. ahk_user)
-
-Password: your Home Assistant long-lived token
-
-Click OK
-
 .
 .
 
