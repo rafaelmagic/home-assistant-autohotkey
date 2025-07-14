@@ -245,13 +245,13 @@ If you get an error instead, double-check your URL and token.
 ## 🔹 1. open Home_Assistant_AutoHotKey.ahk via Notepad
 
 On line 12
-
+```
 ^!q:: HA.Toggle("light.aqara_light_switch")
-
+```
 Now to add a light switch or bulb
-
+```
 Change ^!q:: HA.Toggle("switch.MYEntity")
-
+```
 Save and double click file to reload
 
 Then press Ctrl + Alt + q
