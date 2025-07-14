@@ -18,7 +18,7 @@
 ^!w:: HA.TurnOn("light.aqara_light_switch")
 ^!e:: HA.TurnOff("light.aqara_light_switch")
 ^!j:: HA.SendMQTT("light/living_room", "Light is on")
-^!t:: HA.SendNotify("Time to walk the dog!", "Reminder", "notify.mobile_app_magic")
+^!t:: HA.SendNotify("Time to walk the dog!", "Reminder", "notify.mobile_app_mycell")
 ^!s:: HA.ActivateScene("scene.relax_evening")
 ^!x:: HA.RunScript("script.good_night")
 
