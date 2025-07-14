@@ -127,6 +127,7 @@ Just drop it next to your .ahk file.
 .
 
 ✅ STEP-BY-STEP- HOW TO OPEN WINDOWS CREDENTIAL MANAGER
+
 🔐 Windows Credential Manager is where passwords are stored securely with encryption.
 
 🔹 1. Open Credential Manager
