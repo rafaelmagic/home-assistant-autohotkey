@@ -147,26 +147,67 @@ Click OK
 
 
 
-✅ DOWNLOAD Home_Assistant_AutoHotKey.ahk
+✅ INSTALL & SETUP Home_Assistant_AutoHotKey.ahk
+🔹 1. Download the Script
+📥 Download or create the script file named:
 
-Place on your Desktop or any folder.
+Copy
+Edit
+Home_Assistant_AutoHotKey.ahk
+Place it anywhere — for example:
 
-Launch Home_Assistant_AutoHotKey.ahk by double clicking on it
+📁 C:\Users\YourName\Desktop\Home_Assistant_AutoHotKey.ahk
 
-press Ctrl+Alt+C in your script, a pop up window will display
+🔹 2. Launch the Script
+▶️ Double-click the file to launch it.
 
-Enter the following below---
+This will run the script in the background (🟢 green H icon in your system tray).
 
-key: AHK_HomeAssistantAPI
+🔹 3. Store Your API Token via Hotkey
+Press this hotkey to store your Home Assistant token securely:
 
-User name: (anything, e.g. ahk_user)
+mathematica
+Copy
+Edit
+Ctrl + Alt + C
+You’ll see a popup window with these fields:
 
-Password: your Home Assistant long-lived token
+Key: AHK_HomeAssistantAPI
 
-Using Notepad open Home_Assistant_AutoHotKey.ahk
+User name: (can be anything, like ahk_user)
 
-On line 84, enter your website in this format:
+Password: your Home Assistant long-lived access token
 
-"https://myhomeassistanturl.com"
+🖱️ Click the "Add Pass" button.
 
-SAVE, then reload by double clicking on file.
+✅ You can confirm it was saved by checking:
+
+👉 Credential Manager > Windows Credentials
+Look for: AHK_HomeAssistantAPI
+
+🔹 4. Set Your Home Assistant URL
+Open the script in Notepad:
+📄 Right-click Home_Assistant_AutoHotKey.ahk > "Edit with Notepad"
+
+Find this line (around line 84):
+
+static Url := "https://myhomeassistanturl.com"
+
+Replace it with your own Home Assistant URL:
+
+💾 Save the file.
+
+🔹 5. Reload the Script
+📦 Double-click the script again to reload it with the new settings.
+
+🔹 6. Test the API Connection
+Press this hotkey:
+
+Ctrl + Alt + Z
+✅ A message will display:
+"API is running."
+
+If you get an error instead, double-check your URL and token.
+
+
+
