@@ -1,6 +1,10 @@
 # home-assistant-autohotkey
 🔐 Control Home Assistant Securely with AutoHotKey
 
+-Please suggest improvements and your experiences. Thank you! Magic of Rafael (Magician & Illusionist) 
+https://www.rafaelmagic.com
+
+
 Take full control of your Home Assistant setup using your keyboard! 
 
 This powerful AutoHotKey script lets you control lights, switches, locks, scenes, scripts, notifications, MQTT, and more — all through simple hotkeys.
