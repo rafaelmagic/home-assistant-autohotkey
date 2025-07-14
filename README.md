@@ -61,10 +61,9 @@ Press Win + R
 Type: notepad
 
 Paste this code:
+` #Requires AutoHotkey v2.0
 
-'#Requires AutoHotkey v2.0
-
-MsgBox "✅ AutoHotkey v2 is working!"'
+MsgBox "✅ AutoHotkey v2 is working!" `
 
 
 Save it as test.ahk on your desktop
@@ -105,6 +104,7 @@ Just drop it next to your Home_Assistant_AutoHotKey.ahk file.
 
 # ✅ STEP 3- INSTALLATION FOR passwords.ahk
 (🔐 Credential Manager for AHK)
+
 📦 From:
 👉 https://gist.github.com/fattredd/169835fa26972df8029f9dd7b4d3d6d4
 
