@@ -31,13 +31,13 @@ Perfect for power users, DIY smart home setups, or accessibility shortcuts — a
 
 🧩 AutoHotkey lets you automate anything on Windows — keyboard, mouse, web requests, and more!
 
-🔹 1. Go to the Official Download Page
+## 🔹 1. Go to the Official Download Page
 
 👉 https://www.autohotkey.com/download
 
 You’ll be taken to the official AutoHotkey download page.
 
-🔹 2. Click on “Download AutoHotkey v2.0”
+## 🔹 2. Click on “Download AutoHotkey v2.0”
 
 You’ll see multiple download options — make sure to click the one labeled:
 
@@ -45,14 +45,14 @@ Download AutoHotkey v2.0
 
 ✅ This is the modern version you want (AutoHotkey v1.1 is legacy).
 
-🔹 3. Run the Installer
+## 🔹 3. Run the Installer
 
 Once downloaded:
 
 🖱️ Double-click AutoHotkey_2.x.x_setup.exe to run the installer.
 📋 Choose “Express Installation” unless you have a specific need.
 
-🔹 4. Verify the Install
+## 🔹 4. Verify the Install
 
 After install, you can confirm it’s working:
 
@@ -78,7 +78,7 @@ Double-click the file — you should see a message box.
 
 # ✅ STEP 2- INSTALLATION FOR JSON.ahk
 
-🔹 1. Download JSON.ahk
+## 🔹 1. Download JSON.ahk
 Go to:
 👉 https://github.com/thqby/ahk2_lib/blob/master/JSON.ahk
 
@@ -87,7 +87,7 @@ Then press Ctrl+S (or right-click > “Save As”) to save the file as:
 
 JSON.ahk
 
-🔹 2. Place it in your AutoHotkey Lib folder
+## 🔹 2. Place it in your AutoHotkey Lib folder
 
 Put the file in one of the following folders:
 
@@ -108,14 +108,14 @@ Just drop it next to your Home_Assistant_AutoHotKey.ahk file.
 📦 From:
 👉 https://gist.github.com/fattredd/169835fa26972df8029f9dd7b4d3d6d4
 
-🔹 1. Download passwords.ahk
+## 🔹 1. Download passwords.ahk
 Go to the link above.
 Click the “Raw” button (top right of the code block).
 Then press Ctrl+S (or right-click > “Save As”) and save it as:
 
 passwords.ahk
 
-🔹 2. Place it in your AutoHotkey Lib folder
+## 🔹 2. Place it in your AutoHotkey Lib folder
 
 Put the file in one of the following folders:
 
@@ -134,7 +134,7 @@ Just drop it next to your Home_Assistant_AutoHotKey.ahk file.
 
 🔐 Windows Credential Manager is where passwords are stored securely with encryption.
 
-🔹 1. Open Credential Manager
+## 🔹 1. Open Credential Manager
 There are 3 easy ways to launch it:
 
 ✅ Option A: Use Windows Search
@@ -158,7 +158,7 @@ Open Control Panel
 Go to:
 User Accounts → Credential Manager
 
-🔹 2. Choose "Windows Credentials"
+## 🔹 2. Choose "Windows Credentials"
 🟢 Click the Windows Credentials tab (not Web Credentials)
 That's where AHK stores tokens when using passwords.ahk.
 
@@ -167,7 +167,7 @@ That's where AHK stores tokens when using passwords.ahk.
 
 # ✅ STEP 5- INSTALL & SETUP Home_Assistant_AutoHotKey.ahk
 
-🔹 1. Download the Script
+## 🔹 1. Download the Script
 
 📥 Download or create the script file named:
 
@@ -177,13 +177,13 @@ Place it anywhere — for example:
 
 📁 C:\Users\YourName\Desktop\Home_Assistant_AutoHotKey.ahk
 
-🔹 2. Launch the Script
+## 🔹 2. Launch the Script
 
 ▶️ Double-click the file to launch it.
 
 This will run the script in the background (🟢 green H icon in your system tray).
 
-🔹 3. Store Your API Token via Hotkey
+## 🔹 3. Store Your API Token via Hotkey
 
 Press this hotkey to store your Home Assistant token securely:
 
@@ -205,7 +205,7 @@ Password: your Home Assistant long-lived access token
 
 Look for: AHK_HomeAssistantAPI
 
-🔹 4. Set Your Home Assistant URL
+## 🔹 4. Set Your Home Assistant URL
 
 Open the script in Notepad:
 
@@ -219,11 +219,11 @@ Replace it with your own Home Assistant URL
 
 💾 Save the file.
 
-🔹 5. Reload the Script
+## 🔹 5. Reload the Script
 
 📦 Double-click the script again to reload it with the new settings.
 
-🔹 6. Test the API Connection
+## 🔹 6. Test the API Connection
 
 Press this hotkey:
 
@@ -240,7 +240,7 @@ If you get an error instead, double-check your URL and token.
 
 # ✅ STEP 6- Edit the Home_Assistant_AutoHotKey.ahk Hotkeys and Entities
 
-🔹 1. open Home_Assistant_AutoHotKey.ahk via Notepad
+## 🔹 1. open Home_Assistant_AutoHotKey.ahk via Notepad
 
 On line 12
 
