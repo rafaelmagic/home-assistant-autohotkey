@@ -163,7 +163,9 @@ User Accounts → Credential Manager
 
 ## 🔹 2. Choose "Windows Credentials"
 🟢 Click the Windows Credentials tab (not Web Credentials)
-That's where AHK stores tokens when using passwords.ahk.
+That's where AHK stores tokens when using passwords.ahk. Under the "Generic Credentials" section. 
+
+In Step 5, we will generate a credential for the Home Assistant API.
 
 .
 .
@@ -192,19 +194,21 @@ Press this hotkey to store your Home Assistant token securely:
 
 Ctrl + Alt + C
 
-You’ll see a popup window with these fields===
-
+You’ll see a popup window with these fields. In the "key" field enter AHK_HomeAssistantAPI, the User name can be random, Password is the generated Home Assistant long-lived access token.
+```
 Key: AHK_HomeAssistantAPI
 
 User name: (can be anything, like ahk_user)
 
 Password: your Home Assistant long-lived access token
+```
+
 
 🖱️ Click the "Add Pass" button.
 
 ✅ You can confirm it was saved by checking:
 
-👉 Credential Manager > Windows Credentials
+👉 Credential Manager > Windows Credentials > Generic Credentials
 
 Look for: AHK_HomeAssistantAPI
 
@@ -215,9 +219,9 @@ Open the script in Notepad:
 📄 Right-click Home_Assistant_AutoHotKey.ahk > "Edit with Notepad"
 
 Find this line (around line 84):
-
+```
 static Url := "https://myhomeassistanturl.com"
-
+```
 Replace it with your own Home Assistant URL
 
 💾 Save the file.
