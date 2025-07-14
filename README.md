@@ -20,7 +20,7 @@ Easily modify or expand the script for your own devices
 Perfect for power users, DIY smart home setups, or accessibility shortcuts — all with no mouse required.
 
 
-#✅ HOW TO INSTALL AutoHotkey v2.0
+#✅ #HOW TO INSTALL AutoHotkey v2.0
 
 🧩 AutoHotkey lets you automate anything on Windows — keyboard, mouse, web requests, and more!
 
