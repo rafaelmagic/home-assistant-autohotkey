@@ -244,13 +244,13 @@ If you get an error instead, double-check your URL and token.
 
 ## 🔹 1. open Home_Assistant_AutoHotKey.ahk via Notepad
 
-On line 12
+Using the hotkey on line 12
 ```
 ^!q:: HA.Toggle("light.aqara_light_switch")
 ```
-Now to add a light switch or bulb
+In order to add your light switch or bulb entity. Change the code like below with your entity
 ```
-Change ^!q:: HA.Toggle("switch.MYEntity")
+^!q:: HA.Toggle("switch.MYEntity")
 ```
 Save and double click file to reload
 
@@ -258,7 +258,9 @@ Then press Ctrl + Alt + q
 
 Your light should toggle On or Off.
 
-Change the rest as needed.
+Change the rest of the lines and their entities as needed.
+
+The script has sample code to cover toggles, lights on, lights off, scenes, scripts, MQTT, door locks, viewing attributes, notifications, viewing raw json files.
 
 
 
