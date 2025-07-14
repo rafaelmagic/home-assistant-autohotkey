@@ -177,7 +177,7 @@ User name: (can be anything, like ahk_user)
 
 Password: your Home Assistant long-lived access token
 ```
-The reason that we are using the term AHK_HomeAssistantAPI is because on line 
+The reason that we are using the term AHK_HomeAssistantAPI is because on line 90 in the main script is referencing that name. 
 
 .
 .
@@ -202,7 +202,7 @@ This will run the script in the background (🟢 green H icon in your system tra
 
 ## 🔹 3. Store Your API Token via Hotkey
 
-Press this hotkey to store your Home Assistant token securely:
+If you havn't done so, via the manual way in Step 4. We can use AHK to store your Home Assistant token securely:
 
 Ctrl + Alt + C
 
