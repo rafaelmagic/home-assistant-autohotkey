@@ -99,7 +99,7 @@ C:\Users\YourName\Documents\AutoHotkey\Lib\passwords.ahk
 Just drop it next to your .ahk file.
 
 
-✅ HOW TO OPEN WINDOWS CREDENTIAL MANAGER
+✅ STEP-BY-STEP- HOW TO OPEN WINDOWS CREDENTIAL MANAGER
 🔐 Windows Credential Manager is where passwords are stored securely with encryption.
 
 🔹 1. Open Credential Manager
@@ -147,7 +147,7 @@ Click OK
 
 
 
-✅ INSTALL & SETUP Home_Assistant_AutoHotKey.ahk
+✅ STEP-BY-STEP- INSTALL & SETUP Home_Assistant_AutoHotKey.ahk
 
 🔹 1. Download the Script
 
@@ -217,7 +217,7 @@ Ctrl + Alt + Z
 
 If you get an error instead, double-check your URL and token.
 
-✅ Edit the Home_Assistant_AutoHotKey.ahk Hotekys and Entities
+✅ STEP-BY-STEP- Edit the Home_Assistant_AutoHotKey.ahk Hotkeys and Entities
 
 🔹 1. open Home_Assistant_AutoHotKey.ahk via Notepad
 
@@ -225,11 +225,15 @@ On line 12
 
 ^!q:: HA.Toggle("light.aqara_light_switch")
 
+Now to add a light switch or bulb
+
 Change ^!q:: HA.Toggle("switch.MYEntity")
 
-Save and double click
+Save and double click file to reload
 
-Then press Ctrl + Alt + q, and your light should toggle On or Off.
+Then press Ctrl + Alt + q
+
+Your light should toggle On or Off.
 
 Change the rest as needed.
 
