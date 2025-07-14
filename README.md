@@ -23,7 +23,7 @@ Perfect for power users, DIY smart home setups, or accessibility shortcuts — a
 .
 
 
-✅ #HOW TO INSTALL AutoHotkey v2.0
+✅ STEP 1- HOW TO INSTALL AutoHotkey v2.0
 
 🧩 AutoHotkey lets you automate anything on Windows — keyboard, mouse, web requests, and more!
 
@@ -72,7 +72,7 @@ Double-click the file — you should see a message box.
 
 
 
-✅ STEP-BY-STEP INSTALLATION FOR JSON.ahk
+✅ STEP 2- INSTALLATION FOR JSON.ahk
 
 🔹 1. Download JSON.ahk
 Go to:
@@ -99,7 +99,7 @@ Just drop it next to your Home_Assistant_AutoHotKey.ahk file.
 .
 
 
-✅ STEP-BY-STEP INSTALLATION FOR passwords.ahk
+✅ STEP 3- INSTALLATION FOR passwords.ahk
 (🔐 Credential Manager for AHK)
 📦 From:
 👉 https://gist.github.com/fattredd/169835fa26972df8029f9dd7b4d3d6d4
@@ -126,7 +126,7 @@ Just drop it next to your Home_Assistant_AutoHotKey.ahk file.
 .
 .
 
-✅ STEP-BY-STEP- HOW TO OPEN WINDOWS CREDENTIAL MANAGER
+✅ STEP 4- HOW TO OPEN WINDOWS CREDENTIAL MANAGER
 
 🔐 Windows Credential Manager is where passwords are stored securely with encryption.
 
@@ -176,7 +176,7 @@ Click OK
 .
 .
 
-✅ STEP-BY-STEP- INSTALL & SETUP Home_Assistant_AutoHotKey.ahk
+✅ STEP 5- INSTALL & SETUP Home_Assistant_AutoHotKey.ahk
 
 🔹 1. Download the Script
 
@@ -249,7 +249,7 @@ If you get an error instead, double-check your URL and token.
 .
 .
 
-✅ STEP-BY-STEP- Edit the Home_Assistant_AutoHotKey.ahk Hotkeys and Entities
+✅ STEP 6- Edit the Home_Assistant_AutoHotKey.ahk Hotkeys and Entities
 
 🔹 1. open Home_Assistant_AutoHotKey.ahk via Notepad
 
