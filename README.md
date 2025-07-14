@@ -96,4 +96,59 @@ C:\Users\YourName\Documents\AutoHotkey\Lib\passwords.ahk
 Just drop it next to your .ahk file.
 
 
+✅ HOW TO OPEN WINDOWS CREDENTIAL MANAGER
+🔐 Windows Credential Manager is where passwords are stored securely with encryption.
+
+🔹 1. Open Credential Manager
+There are 3 easy ways to launch it:
+
+✅ Option A: Use Windows Search
+Press Win (Windows key)
+
+Type: Credential Manager
+
+Click Credential Manager from the search results
+
+✅ Option B: Run Command
+Press Win + R to open the Run dialog
+
+Type:
+
+control /name Microsoft.CredentialManager
+Press Enter
+
+✅ Option C: From Control Panel
+Open Control Panel
+
+Go to:
+User Accounts → Credential Manager
+
+🔹 2. Choose "Windows Credentials"
+🟢 Click the Windows Credentials tab (not Web Credentials)
+That's where AHK stores tokens when using passwords.ahk.
+
+🔹 3. Add or Edit a Credential
+To add a new credential manually:
+
+Click Add a Windows credential
+
+Enter:
+
+Internet or network address: AHK_HomeAssistantAPI
+
+User name: (anything, e.g. ahk_user)
+
+Password: your Home Assistant long-lived token
+
+Click OK
+
+💡 Tip:
+If you're using passwords.ahk and press Ctrl+Alt+C in your script, it will automatically store this credential for you.
+
+key: AHK_HomeAssistantAPI
+
+User name: (anything, e.g. ahk_user)
+
+Password: your Home Assistant long-lived token
+
 
