@@ -93,7 +93,7 @@ C:\Users\YourName\Documents\AutoHotkey\Lib\JSON.ahk
 
 📁 Option B: Same folder as your script
 
-Just drop it next to your .ahk file.
+Just drop it next to your Home_Assistant_AutoHotKey.ahk file.
 
 .
 .
@@ -121,7 +121,7 @@ C:\Users\YourName\Documents\AutoHotkey\Lib\passwords.ahk
 
 📁 Option B: Same folder as your script
 
-Just drop it next to your .ahk file.
+Just drop it next to your Home_Assistant_AutoHotKey.ahk file.
 
 .
 .
