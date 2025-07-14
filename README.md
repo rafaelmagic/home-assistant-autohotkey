@@ -5,7 +5,7 @@
 https://www.rafaelmagic.com
 
 
-Take full control of your Home Assistant setup using your keyboard! 
+Take full control of your Home Assistant setup using your PC keyboard! Sorry Mac users.
 
 This powerful AutoHotKey script lets you control lights, switches, locks, scenes, scripts, notifications, MQTT, and more — all through simple hotkeys.
 
