@@ -3,6 +3,7 @@ Control Home Assistant (Rest API) with AutoHotKey
 
 
 ✅ HOW TO INSTALL AutoHotkey v2.0
+
 🧩 AutoHotkey lets you automate anything on Windows — keyboard, mouse, web requests, and more!
 
 🔹 1. Go to the Official Download Page
