@@ -1,5 +1,22 @@
 # home-assistant-autohotkey
-Control Home Assistant (Rest API) with AutoHotKey. The script uses SSL, and Windows Credentials to encrypt the API key. With the script you can use any keyboard to control Home Assistant lights, switches, scripts, notifications, and more. 
+🔐 Control Home Assistant Securely with AutoHotKey
+Take full control of your Home Assistant setup using your keyboard! 
+
+This powerful AutoHotKey script lets you control lights, switches, locks, scenes, scripts, notifications, MQTT, and more — all through simple hotkeys.
+
+✅ Secure by design
+
+Uses HTTPS (SSL) for encrypted communication
+
+API key is securely stored in Windows Credential Manager
+
+✅ Fast & customizable
+
+Press Ctrl + Alt + key to toggle entities instantly
+
+Easily modify or expand the script for your own devices
+
+Perfect for power users, DIY smart home setups, or accessibility shortcuts — all with no mouse required.
 
 
 ✅ HOW TO INSTALL AutoHotkey v2.0
