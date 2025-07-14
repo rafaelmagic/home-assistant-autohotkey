@@ -50,6 +50,7 @@ Download AutoHotkey v2.0
 Once downloaded:
 
 🖱️ Double-click AutoHotkey_2.x.x_setup.exe to run the installer.
+
 📋 Choose “Express Installation” unless you have a specific need.
 
 ## 🔹 4. Verify the Install
