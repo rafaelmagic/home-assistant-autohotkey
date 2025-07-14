@@ -2,8 +2,49 @@
 Control Home Assistant (Rest API) with AutoHotKey
 
 
+✅ HOW TO INSTALL AutoHotkey v2.0
+🧩 AutoHotkey lets you automate anything on Windows — keyboard, mouse, web requests, and more!
 
-Then add passwords.AHK -add Windows Credential Manager to AutoHotkey from https://gist.github.com/fattredd/169835fa26972df8029f9dd7b4d3d6d4
+🔹 1. Go to the Official Download Page
+
+👉 https://www.autohotkey.com/download
+
+You’ll be taken to the official AutoHotkey download page.
+
+🔹 2. Click on “Download AutoHotkey v2.0”
+
+You’ll see multiple download options — make sure to click the one labeled:
+
+Download AutoHotkey v2.0
+
+✅ This is the modern version you want (AutoHotkey v1.1 is legacy).
+
+🔹 3. Run the Installer
+
+Once downloaded:
+
+🖱️ Double-click AutoHotkey_2.x.x_setup.exe to run the installer.
+📋 Choose “Express Installation” unless you have a specific need.
+
+🔹 4. Verify the Install
+
+After install, you can confirm it’s working:
+
+Press Win + R
+
+Type: notepad
+
+Paste this code:
+
+#Requires AutoHotkey v2.0
+MsgBox "✅ AutoHotkey v2 is working!"
+
+Save it as test.ahk on your desktop
+
+Double-click the file — you should see a message box.
+
+
+
 
 ✅ STEP-BY-STEP INSTALLATION FOR JSON.ahk
 🔹 1. Download JSON.ahk
@@ -26,6 +67,7 @@ C:\Users\YourName\Documents\AutoHotkey\Lib\JSON.ahk
 📁 Option B: Same folder as your script
 
 Just drop it next to your .ahk file.
+
 
 
 
