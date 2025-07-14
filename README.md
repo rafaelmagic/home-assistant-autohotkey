@@ -38,7 +38,9 @@ Type: notepad
 Paste this code:
 
 #Requires AutoHotkey v2.0
+
 MsgBox "✅ AutoHotkey v2 is working!"
+
 
 Save it as test.ahk on your desktop
 
