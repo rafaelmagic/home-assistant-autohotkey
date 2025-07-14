@@ -48,6 +48,7 @@ Double-click the file — you should see a message box.
 
 
 ✅ STEP-BY-STEP INSTALLATION FOR JSON.ahk
+
 🔹 1. Download JSON.ahk
 Go to:
 👉 https://github.com/thqby/ahk2_lib/blob/master/JSON.ahk
